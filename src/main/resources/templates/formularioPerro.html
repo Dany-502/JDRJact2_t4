@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Perro</title>
+</head>
+<body>
+    <h1>Registrar un Nuevo Perro</h1>
+    <form th:action="@{/guardarPerro}" th:object="${perro}" method="post">
+        <div>
+            <label for="id">ID:</label>
+            <input type="number" id="id" th:field="*{id}" required/>
+        </div>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" th:field="*{nombre}" required/>
+        </div>
+        <div>
+            <label for="raza">Raza:</label>
+            <input type="text" id="raza" th:field="*{raza}" required/>
+        </div>
+        <div>
+            <label for="color">Color:</label>
+            <input type="text" id="color" th:field="*{color}" required/>
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" th:field="*{edad}" required/>
+        </div>
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>

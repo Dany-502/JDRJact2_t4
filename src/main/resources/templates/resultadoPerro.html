@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado del Perro</title>
+</head>
+
+<body>
+    <h1>Perro Guardado con Éxito</h1>
+    <p>Creado por: <span th:text="${creador}"></span></p>
+    <p>Los datos recibidos son:</p>
+    <ul>
+        <li><strong>ID:</strong> <span th:text="${perroGuardado.id}"></span></li>
+        <li><strong>Nombre:</strong> <span th:text="${perroGuardado.nombre}"></span></li>
+        <li><strong>Raza:</strong> <span th:text="${perroGuardado.raza}"></span></li>
+        <li><strong>Color:</strong> <span th:text="${perroGuardado.color}"></span></li>
+        <li><strong>Edad:</strong> <span th:text="${perroGuardado.edad}"></span></li>
+    </ul>
+    <a th:href="@{/formularioPerro}">Volver al formulario</a>
+    <br>
+    <a th:href="@{/listaPerros}">Ver lista de perros</a>
+</body>
+
+</html>
