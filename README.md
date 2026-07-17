@@ -154,7 +154,7 @@ public class PerrosController {
 }
 ```
 
-**Evidencia (Captura de pantalla):**
+**Evidencia:**
 ![Formulario](capturas/Formulario.png)
 ![Resultado](capturas/ResultadoFormulario.png)
 
@@ -209,14 +209,14 @@ public class RequestParamPerritoController {
 }
 ```
 
-**Evidencia (Captura de pantalla):**
+**Evidencia:**
 ![Filtro RequestParam](capturas/RequestParam.png)
 
 ---
 
 ## 4. Endpoint usando `@PathVariable`
 
-Endpoint tipo REST que permite consultar el detalle de un perro en específico pasando su ID directamente como parte de la ruta de la URL (ej. `/path/15`). El servidor captura este número dinámicamente usando `@PathVariable`.
+Endpoint tipo REST que permite consultar el detalle de un perro en específico pasando su ID directamente como parte de la ruta de la URL. El servidor captura este número dinámicamente usando `@PathVariable`.
 
 **Código Java:**
 ```java
@@ -254,14 +254,14 @@ public class PathVariablePerritoController {
 }
 ```
 
-**Evidencia (Captura de pantalla):**
+**Evidencia:**
 ![Búsqueda PathVariable](capturas/pathvariable.png)
 
 ---
 
 ## 5. Petición POST probada exitosamente
 
-Endpoint REST puro diseñado para recibir un JSON en el cuerpo de la petición (Payload) usando la clase `PerroDTO` y la anotación `@RequestBody`. Fue probado exitosamente simulando una petición externa.
+Endpoint REST puro diseñado para recibir un JSON en el cuerpo de la petición (Payload) usando la clase `PerroDTO` y la anotación `@RequestBody`.
 
 **Código Java:**
 ```java
@@ -299,5 +299,5 @@ public class PathVariablePerritoController {
 }
 ```
 
-**Evidencia (Captura en Postman/Bruno):**
+**Evidencia:**
 ![Postman POST](capturas/peticionPost.png)
