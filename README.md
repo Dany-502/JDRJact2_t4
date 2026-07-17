@@ -84,7 +84,7 @@ public class PerrosController {
 ```
 
 **Evidencia:**
-![Vista de Lista](capturas/1_lista_y_value.png)
+![Vista de Lista](capturas/listaValue.png)
 
 ---
 
@@ -155,8 +155,8 @@ public class PerrosController {
 ```
 
 **Evidencia (Captura de pantalla):**
-![Formulario ](capturas/2_formulario_y_resultado.png)
-![Resultado ](capturas/2_formulario_y_resultado.png)
+![Formulario](capturas/Formulario.png)
+![Resultado](capturas/ResultadoFormulario.png)
 
 ---
 
@@ -210,7 +210,7 @@ public class RequestParamPerritoController {
 ```
 
 **Evidencia (Captura de pantalla):**
-![Filtro RequestParam](capturas/3_requestparam.png)
+![Filtro RequestParam](capturas/RequestParam.png)
 
 ---
 
@@ -255,7 +255,7 @@ public class PathVariablePerritoController {
 ```
 
 **Evidencia (Captura de pantalla):**
-![Búsqueda PathVariable](capturas/4_pathvariable.png)
+![Búsqueda PathVariable](capturas/pathvariable.png)
 
 ---
 
@@ -300,4 +300,4 @@ public class PathVariablePerritoController {
 ```
 
 **Evidencia (Captura en Postman/Bruno):**
-![Postman POST](capturas/5_peticion_post.png)
+![Postman POST](capturas/peticionPost.png)
