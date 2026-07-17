@@ -1,4 +1,4 @@
-# Proyecto: Introducción a Spring Boot - Fase 1 (Perritos) 🐶
+# Proyecto: Introducción a Spring Boot - Fase 1 (Perritos)
 
 * **Institución:** Instituto Tecnológico de Oaxaca
 * **Carrera:** Ingeniería en Sistemas Computacionales
