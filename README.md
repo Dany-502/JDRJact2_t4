@@ -1,4 +1,4 @@
-# Proyecto: Introducción a Spring Boot - Fase 1 (Perritos)
+# Act2. Spring MVC - Vistas con Thymeleaf, DTOs y Manejo de Peticiones
 
 * **Institución:** Instituto Tecnológico de Oaxaca
 * **Carrera:** Ingeniería en Sistemas Computacionales
